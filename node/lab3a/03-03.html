@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3</title>
+</head>
+<body>
+    <h1>Factorial</h1>
+    <ol id="result">
+    </ol>
+
+    <script>
+        const result = document.getElementById('result')
+
+        const addResult = str => {
+            const li = document.createElement('li')
+            li.textContent = `Результат: ${str}`
+            result.appendChild(li)
+        }
+
+        const fetchResult = async () => {
+            const startTime = new Date().getTime()
+
+            for(let i = 0; i <= 20; i++){
+                const response = await fetch(`http://localhost:5000/fact?k=${i}`)
+                const data = await response.json()
+                const fact = data.fact
+                const time = new Date().getTime() - startTime
+
+                const str = `${time} - ${i}/${fact}`
+                addResult(str)
+            }
+        }
+
+        fetchResult()
+    </script>
+</body>
+</html>

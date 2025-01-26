@@ -1,0 +1,4 @@
+C:/AllMine/Labs/SP/lab4/tasks/build/CMakeFiles/Lab-04.dir
+C:/AllMine/Labs/SP/lab4/tasks/build/CMakeFiles/Lab-04b.dir
+C:/AllMine/Labs/SP/lab4/tasks/build/CMakeFiles/edit_cache.dir
+C:/AllMine/Labs/SP/lab4/tasks/build/CMakeFiles/rebuild_cache.dir

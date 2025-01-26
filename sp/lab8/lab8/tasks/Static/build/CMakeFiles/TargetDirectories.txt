@@ -1,0 +1,6 @@
+C:/AllMine/Labs/SP/lab8/lab8/tasks/Static/build/CMakeFiles/Lab-08a.dir
+C:/AllMine/Labs/SP/lab8/lab8/tasks/Static/build/CMakeFiles/edit_cache.dir
+C:/AllMine/Labs/SP/lab8/lab8/tasks/Static/build/CMakeFiles/rebuild_cache.dir
+C:/AllMine/Labs/SP/lab8/lab8/tasks/Static/build/library/CMakeFiles/Mappings.dir
+C:/AllMine/Labs/SP/lab8/lab8/tasks/Static/build/library/CMakeFiles/edit_cache.dir
+C:/AllMine/Labs/SP/lab8/lab8/tasks/Static/build/library/CMakeFiles/rebuild_cache.dir

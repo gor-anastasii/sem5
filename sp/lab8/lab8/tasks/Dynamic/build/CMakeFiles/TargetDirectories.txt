@@ -1,0 +1,4 @@
+C:/AllMine/Labs/SP/lab8/lab8/tasks/Dynamic/build/CMakeFiles/Mappingd.dir
+C:/AllMine/Labs/SP/lab8/lab8/tasks/Dynamic/build/CMakeFiles/Lab-08b.dir
+C:/AllMine/Labs/SP/lab8/lab8/tasks/Dynamic/build/CMakeFiles/edit_cache.dir
+C:/AllMine/Labs/SP/lab8/lab8/tasks/Dynamic/build/CMakeFiles/rebuild_cache.dir

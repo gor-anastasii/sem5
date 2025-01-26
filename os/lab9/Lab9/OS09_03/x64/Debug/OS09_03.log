@@ -1,0 +1,5 @@
+﻿  OS09_03.cpp
+C:\AllMine\Labs\ОС\lab9\Lab9\OS09_03\OS09_03.cpp(52,19): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\AllMine\Labs\ОС\lab9\Lab9\OS09_03\OS09_03.cpp(60,48): warning C4244: аргумент: преобразование "LONGLONG" в "DWORD", возможна потеря данных
+C:\AllMine\Labs\ОС\lab9\Lab9\OS09_03\OS09_03.cpp(94,63): warning C4267: аргумент: преобразование из "size_t" в "DWORD"; возможна потеря данных
+  OS09_03.vcxproj -> C:\AllMine\Labs\ОС\lab9\Lab9\x64\Debug\OS09_03.exe

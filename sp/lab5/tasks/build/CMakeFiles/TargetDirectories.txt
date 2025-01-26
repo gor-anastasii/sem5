@@ -1,0 +1,5 @@
+C:/AllMine/Labs/SP/lab5/tasks/build/CMakeFiles/Lab-05a.dir
+C:/AllMine/Labs/SP/lab5/tasks/build/CMakeFiles/Lab-05b.dir
+C:/AllMine/Labs/SP/lab5/tasks/build/CMakeFiles/Lab-05c.dir
+C:/AllMine/Labs/SP/lab5/tasks/build/CMakeFiles/edit_cache.dir
+C:/AllMine/Labs/SP/lab5/tasks/build/CMakeFiles/rebuild_cache.dir

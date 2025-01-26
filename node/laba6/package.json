@@ -1,0 +1,16 @@
+{
+  "name": "m0603bluebox",
+  "version": "1.4.2",
+  "description": "sending",
+  "main": "m06-03.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "bluebox228",
+  "license": "ISC",
+  "dependencies": {
+    "gor_anastasii_lab6": "^1.0.0",
+    "nodemailer": "^6.9.16"
+  }
+}

@@ -1,0 +1,69 @@
+﻿Сборка начата 08.10.2024 12:30:39.
+Уровень детализации журнала: Normal.     1>Проект "D:\лабы\oc\lab6\lab6\OS06_01\OS06_01.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Обращение к "x64\Debug\OS06_01.tlog\unsuccessfulbuild".
+       _MASM:
+         Assembling OS06_01.asm...
+         cmd.exe /C "C:\Users\Ярослава\AppData\Local\Temp\tmpb6b1d2c118bd4b9a9225d23fef91ef47.cmd"
+         ml64.exe /c /nologo /Zi /Fo"x64\Debug\OS06_01.obj" /W3 /errorReport:prompt  /TaOS06_01.asm
+     1>OS06_01.asm(1): error A2044: invalid character in file
+     1>OS06_01.asm(2): error A2008: syntax error : .
+     1>OS06_01.asm(3): error A2008: syntax error : .
+     1>OS06_01.asm(6): error A2008: syntax error : lock
+     1>OS06_01.asm(11): error A2008: syntax error : in directive
+     1>OS06_01.asm(12): error A2008: syntax error : in directive
+     1>OS06_01.asm(13): error A2008: syntax error : in directive
+     1>OS06_01.asm(14): error A2008: syntax error : in directive
+     1>OS06_01.asm(22): error A2008: syntax error : invoke
+     1>OS06_01.asm(23): error A2008: syntax error : invoke
+     1>OS06_01.asm(26): error A2008: syntax error : WaitForSingleObject
+     1>OS06_01.asm(27): error A2008: syntax error : WaitForSingleObject
+     1>OS06_01.asm(30): error A2008: syntax error : invoke
+     1>OS06_01.asm(33): error A2008: syntax error : invoke
+     1>OS06_01.asm(34): error A2008: syntax error : ENDP
+     1>OS06_01.asm(40): error A2008: syntax error : lock
+     1>OS06_01.asm(47): error A2008: syntax error : lock
+     1>OS06_01.asm(49): error A2008: syntax error : ENDP
+     1>OS06_01.asm(55): error A2008: syntax error : lock
+     1>OS06_01.asm(62): error A2008: syntax error : lock
+     1>OS06_01.asm(64): error A2008: syntax error : ENDP
+     1>OS06_01.asm(66): error A2008: syntax error : start
+     1>OS06_01.asm(68): fatal error A1010: unmatched block nesting : thread2_func
+     1>C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml64.exe /c /nologo /Zi /Fo"x64\Debug\OS06_01.obj" /W3 /errorReport:prompt  /TaOS06_01.asm" с кодом "1".
+     1>Сборка проекта "D:\лабы\oc\lab6\lab6\OS06_01\OS06_01.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\лабы\oc\lab6\lab6\OS06_01\OS06_01.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект _MASM) -> 
+         OS06_01.asm(1): error A2044: invalid character in file
+         OS06_01.asm(2): error A2008: syntax error : .
+         OS06_01.asm(3): error A2008: syntax error : .
+         OS06_01.asm(6): error A2008: syntax error : lock
+         OS06_01.asm(11): error A2008: syntax error : in directive
+         OS06_01.asm(12): error A2008: syntax error : in directive
+         OS06_01.asm(13): error A2008: syntax error : in directive
+         OS06_01.asm(14): error A2008: syntax error : in directive
+         OS06_01.asm(22): error A2008: syntax error : invoke
+         OS06_01.asm(23): error A2008: syntax error : invoke
+         OS06_01.asm(26): error A2008: syntax error : WaitForSingleObject
+         OS06_01.asm(27): error A2008: syntax error : WaitForSingleObject
+         OS06_01.asm(30): error A2008: syntax error : invoke
+         OS06_01.asm(33): error A2008: syntax error : invoke
+         OS06_01.asm(34): error A2008: syntax error : ENDP
+         OS06_01.asm(40): error A2008: syntax error : lock
+         OS06_01.asm(47): error A2008: syntax error : lock
+         OS06_01.asm(49): error A2008: syntax error : ENDP
+         OS06_01.asm(55): error A2008: syntax error : lock
+         OS06_01.asm(62): error A2008: syntax error : lock
+         OS06_01.asm(64): error A2008: syntax error : ENDP
+         OS06_01.asm(66): error A2008: syntax error : start
+         OS06_01.asm(68): fatal error A1010: unmatched block nesting : thread2_func
+         C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml64.exe /c /nologo /Zi /Fo"x64\Debug\OS06_01.obj" /W3 /errorReport:prompt  /TaOS06_01.asm" с кодом "1".
+
+    Предупреждений: 0
+    Ошибок: 24
+
+Прошло времени 00:00:00.21

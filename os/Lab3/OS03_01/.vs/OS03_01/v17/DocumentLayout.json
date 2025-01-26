@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\AllMine\\Labs\\\u041E\u0421\\Lab3\\OS03_01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C347616-2B55-4496-ABF1-93967D9BDE05}|OS03_01\\OS03_01.vcxproj|C:\\AllMine\\Labs\\\u041E\u0421\\Lab3\\OS03_01\\OS03_01\\OS03_01.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6C347616-2B55-4496-ABF1-93967D9BDE05}|OS03_01\\OS03_01.vcxproj|solutionrelative:OS03_01\\OS03_01.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8042EA22-EBC1-46FF-A151-E42DA9C18E70}|OS03_03\\OS03_03.vcxproj|C:\\AllMine\\Labs\\\u041E\u0421\\Lab3\\OS03_01\\OS03_03\\OS03_03.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8042EA22-EBC1-46FF-A151-E42DA9C18E70}|OS03_03\\OS03_03.vcxproj|solutionrelative:OS03_03\\OS03_03.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23DA346E-5666-413A-A956-1C9B741498EB}|OS03_02_1\\OS03_02_1.vcxproj|C:\\AllMine\\Labs\\\u041E\u0421\\Lab3\\OS03_01\\OS03_02_1\\OS03_02_1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{23DA346E-5666-413A-A956-1C9B741498EB}|OS03_02_1\\OS03_02_1.vcxproj|solutionrelative:OS03_02_1\\OS03_02_1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{351D4AC8-3952-4D37-B35F-A5A80249DD32}|OS03_02\\OS03_02.vcxproj|C:\\AllMine\\Labs\\\u041E\u0421\\Lab3\\OS03_01\\OS03_02\\OS03_02.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{351D4AC8-3952-4D37-B35F-A5A80249DD32}|OS03_02\\OS03_02.vcxproj|solutionrelative:OS03_02\\OS03_02.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A418ED1-C0DA-4921-850C-6B26A168CA4E}|OS03_02_02\\OS03_02_02.vcxproj|C:\\AllMine\\Labs\\\u041E\u0421\\Lab3\\OS03_01\\OS03_02_02\\OS03_02_2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3A418ED1-C0DA-4921-850C-6B26A168CA4E}|OS03_02_02\\OS03_02_02.vcxproj|solutionrelative:OS03_02_02\\OS03_02_2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OS03_03.cpp",
+              "DocumentMoniker": "C:\\AllMine\\Labs\\\u041E\u0421\\Lab3\\OS03_01\\OS03_03\\OS03_03.cpp",
+              "RelativeDocumentMoniker": "OS03_03\\OS03_03.cpp",
+              "ToolTip": "C:\\AllMine\\Labs\\\u041E\u0421\\Lab3\\OS03_01\\OS03_03\\OS03_03.cpp",
+              "RelativeToolTip": "OS03_03\\OS03_03.cpp",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB4AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-25T18:02:23.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OS03_02_2.cpp",
+              "DocumentMoniker": "C:\\AllMine\\Labs\\\u041E\u0421\\Lab3\\OS03_01\\OS03_02_02\\OS03_02_2.cpp",
+              "RelativeDocumentMoniker": "OS03_02_02\\OS03_02_2.cpp",
+              "ToolTip": "C:\\AllMine\\Labs\\\u041E\u0421\\Lab3\\OS03_01\\OS03_02_02\\OS03_02_2.cpp",
+              "RelativeToolTip": "OS03_02_02\\OS03_02_2.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-25T17:26:34.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OS03_02_1.cpp",
+              "DocumentMoniker": "C:\\AllMine\\Labs\\\u041E\u0421\\Lab3\\OS03_01\\OS03_02_1\\OS03_02_1.cpp",
+              "RelativeDocumentMoniker": "OS03_02_1\\OS03_02_1.cpp",
+              "ToolTip": "C:\\AllMine\\Labs\\\u041E\u0421\\Lab3\\OS03_01\\OS03_02_1\\OS03_02_1.cpp",
+              "RelativeToolTip": "OS03_02_1\\OS03_02_1.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-25T17:22:40.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OS03_02.cpp",
+              "DocumentMoniker": "C:\\AllMine\\Labs\\\u041E\u0421\\Lab3\\OS03_01\\OS03_02\\OS03_02.cpp",
+              "RelativeDocumentMoniker": "OS03_02\\OS03_02.cpp",
+              "ToolTip": "C:\\AllMine\\Labs\\\u041E\u0421\\Lab3\\OS03_01\\OS03_02\\OS03_02.cpp",
+              "RelativeToolTip": "OS03_02\\OS03_02.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-25T17:21:29.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OS03_01.cpp",
+              "DocumentMoniker": "C:\\AllMine\\Labs\\\u041E\u0421\\Lab3\\OS03_01\\OS03_01\\OS03_01.cpp",
+              "RelativeDocumentMoniker": "OS03_01\\OS03_01.cpp",
+              "ToolTip": "C:\\AllMine\\Labs\\\u041E\u0421\\Lab3\\OS03_01\\OS03_01\\OS03_01.cpp",
+              "RelativeToolTip": "OS03_01\\OS03_01.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-25T17:01:38.47Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

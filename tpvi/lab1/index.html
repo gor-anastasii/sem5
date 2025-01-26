@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+        }
+        button {
+            padding: 10px 15px;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        a {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Лабораторная работа №1 </h1>
+    <p><a href="https://www.belstu.by/" target="_blank">Перейти на сайт БГТУ</a></p>
+    <button id="infoButton">Показать информацию о браузере</button>
+    <p id="info"></p>
+
+    <script>
+        const btn = document.getElementById('infoButton')
+        const info = document.getElementById('info')
+
+        btn.addEventListener('click', function() {
+            info.innerText = `
+                appCodeName: ${navigator.appCodeName}
+                appName: ${navigator.appName}
+                appVersion: ${navigator.appVersion}
+                userAgent: ${navigator.userAgent}
+            `
+            console.log('Hello World')
+        });
+    </script>
+</body>
+</html>

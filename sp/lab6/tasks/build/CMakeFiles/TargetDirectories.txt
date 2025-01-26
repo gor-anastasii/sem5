@@ -1,0 +1,5 @@
+C:/AllMine/Labs/SP/lab6/tasks/build/CMakeFiles/Lab-06a.dir
+C:/AllMine/Labs/SP/lab6/tasks/build/CMakeFiles/Lab-06b.dir
+C:/AllMine/Labs/SP/lab6/tasks/build/CMakeFiles/Lab-06c.dir
+C:/AllMine/Labs/SP/lab6/tasks/build/CMakeFiles/edit_cache.dir
+C:/AllMine/Labs/SP/lab6/tasks/build/CMakeFiles/rebuild_cache.dir

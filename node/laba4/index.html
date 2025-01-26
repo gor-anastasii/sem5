@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 350px;
+        }
+        .result {
+            text-align: center;
+        }
+        #error {
+            color: rgb(255, 64, 64);
+            font-size: 14px;
+            height: 20px;
+        }
+        .main{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 30px;
+        }
+        .input-group {
+            margin-bottom: 15px;
+        }
+        label {
+            font-size: 14px;
+            margin-bottom: 5px;
+            display: block;
+        }
+        input {
+            width: 100%;
+            height: 36px;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        button {
+            background: #ba7fd4;
+            color: white;
+            border: none;
+            width: 100%;
+            height: 40px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-bottom: 10px;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background: #855599;
+        }
+        .button-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        #get_result{
+            padding: 8px;
+            width: 350px;
+            border-radius: 8px;
+            background-color: #fff;
+            min-height: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="result">
+            <div id = "error"> </div>
+            <div id="get_result"></div>
+            <div class="get">
+                <button onclick="GET()">Get</button>
+            </div>
+        </div>
+        <div class="container">
+            <div>
+                <div class="input">
+                    <label for="id">ID</label>
+                    <input type="number"  placeholder="Ведите id" id = "id" min="0" >
+                </div>
+            </br>
+                <div class="input">
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="Ведите имя" id = "fio">
+                </div>
+            </br>
+
+            <div class="input">
+                <label for="bdate">Bdate</label>
+                <input type="date" id = "bdate">
+            </div>
+
+            </br>
+            </div>
+            <div>
+            <button onclick="Post()">Insert</button>
+            <button onclick="Update()">Update</button>
+            <button onclick="Delete()">Delete</button>
+            </div>
+        </div>
+    </div>
+    <script>
+
+function GET(){
+    console.log('GET');
+    fetch('http://localhost:5000/api/db',{
+            method: 'GET',
+           
+            headers:{'Content-Type':'application/json', 'Accept':'application/json'}
+        }
+    )
+    .then(response =>{
+        return response.json();
+    })
+    .then(data => {
+        get_result.innerHTML = "";
+        data.forEach(c=> get_result.innerHTML += `${c.id} ${c.name} ${c.bdate}<br/>`)
+    })
+}
+
+function Post(){
+    console.log('POST');
+    fetch('http://localhost:5000/api/db',{
+        method: 'POST',
+   
+        headers:{'Content-Type':'application/json', 'Accept':'application/json'},
+        body: JSON.stringify({id: id.value, name: fio.value, bdate: bdate.value })
+    }
+    )
+    .then(response => {return response.json();})
+    .then((pdata)=> {
+        if(pdata.error){
+            error.innerHTML = pdata.error;
+        }
+        console.log('POST.pdata', pdata);
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
+}
+
+function Update() {
+    console.log('PUT');
+    fetch('http://localhost:5000/api/db', {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify({ id: id.value, name: fio.value, bdate: bdate.value  })
+    })
+    .then(response => { return response.json(); })
+    .then(pdata => {
+        console.log('PUT.pdata', pdata);
+        if (pdata.error) {
+            error.innerHTML = pdata.error;  
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
+}
+
+function Delete() {
+    console.log('DELETE');
+    fetch(`http://localhost:5000/api/db?id=${id.value}`, {
+        method: 'DELETE',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify({ id: id.value, name: fio.value, bdate: bdate.value })
+    })
+    .then(response => { return response.json(); })
+    .then(pdata => {
+        console.log('DELETE.pdata', pdata);
+        if (pdata.error) {
+            error.innerHTML = pdata.error; 
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
+}
+
+    </script>
+</body>
+</html>

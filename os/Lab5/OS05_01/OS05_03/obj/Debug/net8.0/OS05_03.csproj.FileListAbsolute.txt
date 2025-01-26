@@ -1,0 +1,14 @@
+C:\AllMine\Labs\ОС\Lab5\OS05_01\OS05_03\bin\Debug\net8.0\OS05_03.exe
+C:\AllMine\Labs\ОС\Lab5\OS05_01\OS05_03\bin\Debug\net8.0\OS05_03.deps.json
+C:\AllMine\Labs\ОС\Lab5\OS05_01\OS05_03\bin\Debug\net8.0\OS05_03.runtimeconfig.json
+C:\AllMine\Labs\ОС\Lab5\OS05_01\OS05_03\bin\Debug\net8.0\OS05_03.dll
+C:\AllMine\Labs\ОС\Lab5\OS05_01\OS05_03\bin\Debug\net8.0\OS05_03.pdb
+C:\AllMine\Labs\ОС\Lab5\OS05_01\OS05_03\obj\Debug\net8.0\OS05_03.GeneratedMSBuildEditorConfig.editorconfig
+C:\AllMine\Labs\ОС\Lab5\OS05_01\OS05_03\obj\Debug\net8.0\OS05_03.AssemblyInfoInputs.cache
+C:\AllMine\Labs\ОС\Lab5\OS05_01\OS05_03\obj\Debug\net8.0\OS05_03.AssemblyInfo.cs
+C:\AllMine\Labs\ОС\Lab5\OS05_01\OS05_03\obj\Debug\net8.0\OS05_03.csproj.CoreCompileInputs.cache
+C:\AllMine\Labs\ОС\Lab5\OS05_01\OS05_03\obj\Debug\net8.0\OS05_03.dll
+C:\AllMine\Labs\ОС\Lab5\OS05_01\OS05_03\obj\Debug\net8.0\refint\OS05_03.dll
+C:\AllMine\Labs\ОС\Lab5\OS05_01\OS05_03\obj\Debug\net8.0\OS05_03.pdb
+C:\AllMine\Labs\ОС\Lab5\OS05_01\OS05_03\obj\Debug\net8.0\OS05_03.genruntimeconfig.cache
+C:\AllMine\Labs\ОС\Lab5\OS05_01\OS05_03\obj\Debug\net8.0\ref\OS05_03.dll

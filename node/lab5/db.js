@@ -1,0 +1,49 @@
+const createUser = (id, name, birthday) => ({
+    id, 
+    name, 
+    birthday
+})
+
+export const db = {
+    data: [],
+    copyDB: [],
+
+    async select(){
+        return this.data
+    },
+
+    async insert( id, name, birthday){
+        const newUser = createUser(id, name, birthday)
+        this.data.push(newUser)
+        return newUser
+    },
+
+    async update(id, name, birthday){
+        const indUser = this.data.findIndex(user => user.id == id)
+        if(indUser != -1){
+            this.data[indUser] = createUser(id, name, birthday)
+            return this.data[indUser]
+        }
+        return null
+    }, 
+
+    async delete(id){
+        const indUser = this.data.findIndex(user => user.id == id)
+        if(indUser != -1){
+            return this.data.splice(indUser, 1)[0]
+        }
+        return null
+    },
+
+    async commit(){
+        const copy = JSON.parse(JSON.stringify(this.data))
+        this.copyDB.push(copy)
+        console.log("Состояние базы данных зафиксировано:", copy)
+        return copy
+    }
+}
+
+// db.insert('dfg', '03.04.04')
+// db.insert('kf', '24.34.34')
+
+// console.log(db.select())

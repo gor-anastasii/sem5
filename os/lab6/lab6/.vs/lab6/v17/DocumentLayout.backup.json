@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\bstu\\5\\\u041E\u0421\\lab6\\lab6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{156F1FDD-3667-437C-8984-89816861A2F1}|OS06_05\\OS06_05.vcxproj|D:\\bstu\\5\\\u041E\u0421\\lab6\\lab6\\OS06_05\\OS06_05.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{156F1FDD-3667-437C-8984-89816861A2F1}|OS06_05\\OS06_05.vcxproj|solutionrelative:OS06_05\\OS06_05.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{329D40FD-C026-4F67-A907-AF7486D3FAF8}|OS06_04A\\OS06_04A.vcxproj|D:\\bstu\\5\\\u041E\u0421\\lab6\\lab6\\OS06_04A\\OS06_04A.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{329D40FD-C026-4F67-A907-AF7486D3FAF8}|OS06_04A\\OS06_04A.vcxproj|solutionrelative:OS06_04A\\OS06_04A.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4472BCC-DD52-43C2-A444-492B90AB6160}|OS06_04\\OS06_04.vcxproj|D:\\bstu\\5\\\u041E\u0421\\lab6\\lab6\\OS06_04\\OS06_04.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E4472BCC-DD52-43C2-A444-492B90AB6160}|OS06_04\\OS06_04.vcxproj|solutionrelative:OS06_04\\OS06_04.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A3D3250-FA2F-47FB-9E44-27AC7403FA42}|OS06_03A\\OS06_03A.vcxproj|D:\\bstu\\5\\\u041E\u0421\\lab6\\lab6\\OS06_03A\\OS06_03A.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6A3D3250-FA2F-47FB-9E44-27AC7403FA42}|OS06_03A\\OS06_03A.vcxproj|solutionrelative:OS06_03A\\OS06_03A.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCD4497D-B35A-480B-97E0-D3BA2FA38153}|OS06_03\\OS06_03.vcxproj|D:\\bstu\\5\\\u041E\u0421\\lab6\\lab6\\OS06_03\\OS06_03.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CCD4497D-B35A-480B-97E0-D3BA2FA38153}|OS06_03\\OS06_03.vcxproj|solutionrelative:OS06_03\\OS06_03.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C9845A0-EBA5-4F59-BE9D-49E5D51BE244}|OS06_02\\OS06_02.vcxproj|D:\\bstu\\5\\\u041E\u0421\\lab6\\lab6\\OS06_02\\OS06_02.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4C9845A0-EBA5-4F59-BE9D-49E5D51BE244}|OS06_02\\OS06_02.vcxproj|solutionrelative:OS06_02\\OS06_02.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA8197C-3022-4E32-A652-4EF31B3FB5E4}|OS06_01\\OS06_01.vcxproj|D:\\bstu\\5\\\u041E\u0421\\lab6\\lab6\\OS06_01\\OS06_01.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FDA8197C-3022-4E32-A652-4EF31B3FB5E4}|OS06_01\\OS06_01.vcxproj|solutionrelative:OS06_01\\OS06_01.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OS06_05.cpp",
+              "DocumentMoniker": "D:\\bstu\\5\\\u041E\u0421\\lab6\\lab6\\OS06_05\\OS06_05.cpp",
+              "RelativeDocumentMoniker": "OS06_05\\OS06_05.cpp",
+              "ToolTip": "D:\\bstu\\5\\\u041E\u0421\\lab6\\lab6\\OS06_05\\OS06_05.cpp",
+              "RelativeToolTip": "OS06_05\\OS06_05.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-18T19:16:16.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OS06_04A.cpp",
+              "DocumentMoniker": "D:\\bstu\\5\\\u041E\u0421\\lab6\\lab6\\OS06_04A\\OS06_04A.cpp",
+              "RelativeDocumentMoniker": "OS06_04A\\OS06_04A.cpp",
+              "ToolTip": "D:\\bstu\\5\\\u041E\u0421\\lab6\\lab6\\OS06_04A\\OS06_04A.cpp",
+              "RelativeToolTip": "OS06_04A\\OS06_04A.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-18T19:15:11.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OS06_04.cpp",
+              "DocumentMoniker": "D:\\bstu\\5\\\u041E\u0421\\lab6\\lab6\\OS06_04\\OS06_04.cpp",
+              "RelativeDocumentMoniker": "OS06_04\\OS06_04.cpp",
+              "ToolTip": "D:\\bstu\\5\\\u041E\u0421\\lab6\\lab6\\OS06_04\\OS06_04.cpp",
+              "RelativeToolTip": "OS06_04\\OS06_04.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-18T19:14:17.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OS06_03A.cpp",
+              "DocumentMoniker": "D:\\bstu\\5\\\u041E\u0421\\lab6\\lab6\\OS06_03A\\OS06_03A.cpp",
+              "RelativeDocumentMoniker": "OS06_03A\\OS06_03A.cpp",
+              "ToolTip": "D:\\bstu\\5\\\u041E\u0421\\lab6\\lab6\\OS06_03A\\OS06_03A.cpp",
+              "RelativeToolTip": "OS06_03A\\OS06_03A.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-18T19:12:11.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OS06_03.cpp",
+              "DocumentMoniker": "D:\\bstu\\5\\\u041E\u0421\\lab6\\lab6\\OS06_03\\OS06_03.cpp",
+              "RelativeDocumentMoniker": "OS06_03\\OS06_03.cpp",
+              "ToolTip": "D:\\bstu\\5\\\u041E\u0421\\lab6\\lab6\\OS06_03\\OS06_03.cpp",
+              "RelativeToolTip": "OS06_03\\OS06_03.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-18T19:11:32.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OS06_02.cpp",
+              "DocumentMoniker": "D:\\bstu\\5\\\u041E\u0421\\lab6\\lab6\\OS06_02\\OS06_02.cpp",
+              "RelativeDocumentMoniker": "OS06_02\\OS06_02.cpp",
+              "ToolTip": "D:\\bstu\\5\\\u041E\u0421\\lab6\\lab6\\OS06_02\\OS06_02.cpp",
+              "RelativeToolTip": "OS06_02\\OS06_02.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-18T19:11:32.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OS06_01.cpp",
+              "DocumentMoniker": "D:\\bstu\\5\\\u041E\u0421\\lab6\\lab6\\OS06_01\\OS06_01.cpp",
+              "RelativeDocumentMoniker": "OS06_01\\OS06_01.cpp",
+              "ToolTip": "D:\\bstu\\5\\\u041E\u0421\\lab6\\lab6\\OS06_01\\OS06_01.cpp",
+              "RelativeToolTip": "OS06_01\\OS06_01.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-18T19:11:32.654Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

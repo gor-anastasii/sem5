@@ -1,0 +1,5 @@
+C:/AllMine/Labs/SP/lab8/lab8/tasks/task2222/build/CMakeFiles/Mappingd.dir
+C:/AllMine/Labs/SP/lab8/lab8/tasks/task2222/build/CMakeFiles/Mappingd2.dir
+C:/AllMine/Labs/SP/lab8/lab8/tasks/task2222/build/CMakeFiles/Lab-08b.dir
+C:/AllMine/Labs/SP/lab8/lab8/tasks/task2222/build/CMakeFiles/edit_cache.dir
+C:/AllMine/Labs/SP/lab8/lab8/tasks/task2222/build/CMakeFiles/rebuild_cache.dir

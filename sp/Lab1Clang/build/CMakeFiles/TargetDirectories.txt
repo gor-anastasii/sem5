@@ -1,0 +1,3 @@
+C:/AllMine/Labs/СП/Lab1Clang/build/CMakeFiles/MyExe.dir
+C:/AllMine/Labs/СП/Lab1Clang/build/CMakeFiles/edit_cache.dir
+C:/AllMine/Labs/СП/Lab1Clang/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB5B</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        input {
+            margin: 5px;
+        }
+        #result {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Случайные числа</h1>
+    <form id="randForm">
+        <input type="number" id="valueN" placeholder="Введите n" required>
+        <button type="submit">Отправить</button>
+    </form>
+    <div id="result"></div>
+
+    <script>
+        const randForm = document.getElementById('randForm')
+        const result = document.getElementById('result')
+
+        randForm.addEventListener('submit', e => {
+            e.preventDefault()
+            const n = document.getElementById('valueN').value;
+
+            fetch('http://localhost:3000/random-numbers', {
+                method: 'POST',
+                headers: {
+                    'X-Rand-N': n
+                }
+            })
+            .then(response => {
+                if (response.ok) {
+                    return response.json()
+                } else {
+                    throw new Error('Ошибка при получении данных')
+                }
+            })
+            .then(data => {
+                result.textContent = `Случайные числа: ${data.join(', ')}`
+            })
+            .catch(error => {
+                console.error('Ошибка:', error)
+                result.textContent = 'Ошибка при получении данных'
+            })
+        })
+    </script>
+</body>
+</html>

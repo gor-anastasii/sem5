@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Database</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        input, button {
+            margin: 5px 0;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Лабораторная 4</h1>
+    <div>
+        <h3>Добавить пользователя</h3>
+        <input type="number" id="userId" placeholder="ID пользователя">
+        <input type="text" id="name" placeholder="Имя">
+        <input type="date" id="birthday" placeholder="День рождения">
+        <button onclick="addUser()">Добавить</button>
+    </div>
+    <div>
+        <h3>Обновить пользователя</h3>
+        <input type="number" id="updateId" placeholder="ID пользователя">
+        <input type="text" id="updateName" placeholder="Новое имя">
+        <input type="date" id="updateBirthday" placeholder="Новая дата рождения">
+        <button onclick="updateUser()">Обновить</button>
+    </div>
+    <div>
+        <h3>Удалить пользователя</h3>
+        <input type="number" id="deleteId" placeholder="ID пользователя">
+        <button onclick="deleteUser()">Удалить</button>
+    </div>
+    <div>
+        <h3>Получить всех пользователей</h3>
+        <button onclick="getUsers()">Получить</button>
+        <p id="result"></p>
+    </div>
+
+    <script>
+        const result = document.getElementById('result')
+
+        const addUser = async () => {
+            const id = document.getElementById('userId').value
+            const name = document.getElementById('name').value
+            const birthday = document.getElementById('birthday').value
+
+            const response = await fetch('/api/db', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ id, name, birthday })
+            })
+
+            const data = await response.json()
+            result.innerText = JSON.stringify(data, null, 2)
+        }
+
+        const updateUser = async () => {
+            const id = document.getElementById('updateId').value
+            const name = document.getElementById('updateName').value
+            const birthday = document.getElementById('updateBirthday').value
+
+            const response = await fetch('/api/db', {
+                method: 'PUT',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ id, name, birthday })
+            })
+
+            const data = await response.json()
+            result.innerText = JSON.stringify(data, null, 2)
+        }
+
+        const deleteUser = async () => {
+            const id = document.getElementById('deleteId').value
+
+            const response = await fetch(`/api/db?id=${id}`, {
+                method: 'DELETE'
+            })
+
+            const data = await response.json()
+            result.innerText = JSON.stringify(data, null, 2)
+        }
+
+        const getUsers = async () => {
+            const response = await fetch('/api/db')
+            const data = await response.json()
+
+            result.innerText = JSON.stringify(data, null, 2)
+        }
+    </script>
+</body>
+</html>

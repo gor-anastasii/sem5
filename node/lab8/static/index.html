@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <h1 class="danger">Тест стилей</h1>
+    <h2>Script: <span id="result"></span></h2>
+
+    <script>
+        result.innerHTML = sum(3, 5);
+    </script>
+
+    <img width="320" height="240" src="./image.png" alt="Image"></br>
+
+    <video width="320" height="240" controls>
+        <source src="./video.mp4" type="video/mp4">
+    </video></br>
+
+    <a href="./document.docx" download>Download doc</a></br>
+
+    <div id="json-data"></div>
+    <div id="xml-data"></div>
+
+    <script>
+        fetch('./data.json')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('json-data').innerText = JSON.stringify(data, null, 2);
+            });
+
+        fetch('./data.xml')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('xml-data').innerText = data;
+            });
+    </script>
+</body>
+</html>

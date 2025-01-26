@@ -1,0 +1,4 @@
+C:/AllMine/Labs/SP/lab9/task/build/CMakeFiles/Service09.dir
+C:/AllMine/Labs/SP/lab9/task/build/CMakeFiles/ServiceCtrl.dir
+C:/AllMine/Labs/SP/lab9/task/build/CMakeFiles/edit_cache.dir
+C:/AllMine/Labs/SP/lab9/task/build/CMakeFiles/rebuild_cache.dir

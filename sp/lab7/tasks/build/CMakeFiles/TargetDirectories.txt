@@ -1,0 +1,3 @@
+C:/AllMine/Labs/SP/lab7/tasks/build/CMakeFiles/Lab-07.dir
+C:/AllMine/Labs/SP/lab7/tasks/build/CMakeFiles/edit_cache.dir
+C:/AllMine/Labs/SP/lab7/tasks/build/CMakeFiles/rebuild_cache.dir
